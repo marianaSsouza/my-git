@@ -20,7 +20,7 @@
 - para esse conflito, primeiro fiz uma alteração no meu repositório remoto no github e dei um commit por lá mesmo
 <br>
 
-![print criando branch](imagens_my-git/criando-branch-resolvendo-conflito.png)
+![print criando branch](imagens_my-git/edicao-remota.png)
 
 
 - no meu repositório local, eu também fiz uma alteração na minha branch main, na mesma linha onde fiz a alteração remota. Para mudar de branch, segui o comando <u><strong>git checkout main</strong></u>
