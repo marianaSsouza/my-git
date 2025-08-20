@@ -2,11 +2,9 @@
 ## ~ início
 - Primeiro, criei uma branch chamada feat/resolvendo-conflitos
 
-<br>
-![print criando branch]("\imagens_my-git\criando-branch-resolvendo-conflito.png")
-![Dog curtindo o repositório](marianaSsouza/Imagens/cachorro_dando_like.jpeg)
+![print criando branch](\imagens_my-git\criando-branch-resolvendo-conflito.png)
 
-<br>
+
 
 - Após isso, criei um arquivo no repositório <u><strong>my-git</strong></u> chamado <u><strong>resolvendo-conflitos.md</strong></u>
 - nele fiz algumas alterações e fiz um commit seguindo o fluxo
