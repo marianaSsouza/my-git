@@ -4,6 +4,8 @@
 
 <br>
 ![print criando branch]("\imagens_my-git\criando-branch-resolvendo-conflito.png")
+![Dog curtindo o repositório](marianaSsouza/Imagens/cachorro_dando_like.jpeg)
+
 <br>
 
 - Após isso, criei um arquivo no repositório <u><strong>my-git</strong></u> chamado <u><strong>resolvendo-conflitos.md</strong></u>
