@@ -11,7 +11,7 @@
 > git add .
 <br>
 > git commit -m "teste"
- <br>
+<br>
 > git push
 
 - depois, troquei de branch com o comando <u><strong>git checkout main</strong></u> e comecei a testar
