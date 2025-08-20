@@ -19,19 +19,22 @@
 ### ~ conflito
 - para esse conflito, primeiro fiz uma alteração no meu repositório remoto no github e dei um commit por lá mesmo
 <br>
-adicionar imagem!!
+
+![print criando branch](imagens_my-git/criando-branch-resolvendo-conflito.png)
+
 
 - no meu repositório local, eu também fiz uma alteração na minha branch main, na mesma linha onde fiz a alteração remota. Para mudar de branch, segui o comando <u><strong>git checkout main</strong></u>
 - como eu ainda não tinha dado pull na alteração remota e já fui direto fazer a alteração local, o comando <u><strong>git status</strong></u> mostrou o seguinte:
 
-<br>
 
-adicionar imagem git-status-mesagem.png
+![print status mensagem](imagens_my-git/git-status-mensagem.png)
+
 
 - a seguir, joguei essa alteração para stage com um <u><strong>git add .</strong></u> e commitei ela com <u><strong>git commit -m "testando conflito na main</strong></u>
 
 - porém, quando fiz esse commit, gerou um conflito:
-<br>
+
+![print imagem conflito](imagens_my-git/conflito-01-git.png)
 adicionar imagem conflito-01-git
 
 ---
@@ -40,7 +43,7 @@ adicionar imagem conflito-01-git
 - segui o comando <u><strong>git pull</strong></u> para trazer as alterações do remoto para o meu local
 - logo quando dei esse git pull, apareceu a seguinte mensagem:
 
-<br>
+![print escolhendo alteracoes](imagens_my-git/escolher-alteracoes.png)
 adicionar a imagem escolhendo-alteracoes
 
 - após escolher a opção que gostaria (no meu caso escolhi a atual), segui com o comando:
@@ -49,6 +52,8 @@ adicionar a imagem escolhendo-alteracoes
 > git add . && git commit -m "teste" && git push
 
 - o que gerou a saída:
+
+![print saida do git pull](imagens_my-git/saida-do-git-pull.png)
 
 adicionar imagem saida-do-git-pull
 
