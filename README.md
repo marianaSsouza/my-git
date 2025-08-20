@@ -9,9 +9,9 @@
 - Após isso, criei um arquivo no repositório <u><strong>my-git</strong></u> chamado <u><strong>resolvendo-conflitos.md</strong></u>
 - nele fiz algumas alterações e fiz um commit seguindo o fluxo
 > git add .
-<br>
+
 > git commit -m "teste"
-<br>
+
 > git push
 
 - depois, troquei de branch com o comando <u><strong>git checkout main</strong></u> e comecei a testar
