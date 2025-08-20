@@ -46,7 +46,7 @@
 
 - após escolher a opção que gostaria (no meu caso escolhi a atual), segui com o comando:
 > git status
-<br>
+
 > git add . && git commit -m "teste" && git push
 
 - o que gerou a saída:
