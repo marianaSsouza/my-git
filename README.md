@@ -3,7 +3,7 @@
 - Primeiro, criei uma branch chamada feat/resolvendo-conflitos
 
 <br>
-aqui vou adicionar uma imagem!!
+![print criando branch]("\imagens_my-git\criando-branch-resolvendo-conflito.png")
 <br>
 
 - Após isso, criei um arquivo no repositório <u><strong>my-git</strong></u> chamado <u><strong>resolvendo-conflitos.md</strong></u>
