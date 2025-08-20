@@ -10,9 +10,9 @@
 - nele fiz algumas alterações e fiz um commit seguindo o fluxo
 > git add .
 <br>
- git commit -m "teste"
+> git commit -m "teste"
  <br>
- git push
+> git push
 
 - depois, troquei de branch com o comando <u><strong>git checkout main</strong></u> e comecei a testar
 ---
@@ -35,7 +35,6 @@
 - porém, quando fiz esse commit, gerou um conflito:
 
 ![print imagem conflito](imagens_my-git/conflito-01-git.png)
-adicionar imagem conflito-01-git
 
 ---
 ### ~ como resolvi:
@@ -44,7 +43,6 @@ adicionar imagem conflito-01-git
 - logo quando dei esse git pull, apareceu a seguinte mensagem:
 
 ![print escolhendo alteracoes](imagens_my-git/escolher-alteracoes.png)
-adicionar a imagem escolhendo-alteracoes
 
 - após escolher a opção que gostaria (no meu caso escolhi a atual), segui com o comando:
 > git status
@@ -54,8 +52,6 @@ adicionar a imagem escolhendo-alteracoes
 - o que gerou a saída:
 
 ![print saida do git pull](imagens_my-git/saida-do-git-pull.png)
-
-adicionar imagem saida-do-git-pull
 
 - resolvendo assim o conflito :)
 
