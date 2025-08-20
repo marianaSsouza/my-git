@@ -2,7 +2,7 @@
 ## ~ início
 - Primeiro, criei uma branch chamada feat/resolvendo-conflitos
 
-![print criando branch](\imagens_my-git\criando-branch-resolvendo-conflito.png)
+![print criando branch](imagens_my-git/criando-branch-resolvendo-conflito.png)
 
 
 
