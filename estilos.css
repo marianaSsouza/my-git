@@ -1,0 +1,89 @@
+/* ================================================== */
+/* Paleta de Cores: Menininha com Rosa e Creme         */
+/* ================================================== */
+:root {
+    --rosa-principal: #FADADD;
+    --creme-quente: #FFFACD;
+    --rosa-escuro: #E8A2AD;
+    --cinza-texto: #4A4A4A;
+}
+
+/* Tipografia */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte para o corpo do texto */
+    background-color: #9E182B ;
+    color: var(--cinza-texto);
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive; /* Fonte para os títulos */
+    color: var(--rosa-escuro);
+}
+
+/* ================================================== */
+/* Estilo das Seções e Componentes                      */
+/* ================================================== */
+
+main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+.secao-introducao { /*aqui é o primeiro bloco de caixinha*/
+    text-align: center;
+    padding: 2rem 0;
+    background-color:  #EFECE9 ;
+    color: #7a3641;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.secao-introducao h1 { /*altera a cor do titulo*/
+    color: #b25c69 ;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.secao-comandos, .secao-conceitos {
+    background-color: #EFECE9;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #f2afbc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*sombreamento das "caixinhas*/
+}
+
+.secao-comandos h2, .secao-conceitos h2 {
+    color: #be0822;
+    border-bottom: 2px solid var(--rosa-principal);
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: disc;
+    line-height: 1.8;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #666666;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer { /**/
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #FFF9F5; 
+    color: #E86975;
+    margin-top: 2rem;
+}
