@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+
+    <style>
+        *{
+            background-color: pink;
+        }
+        
+        .container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 15px solid hotpink;
+            border-radius: 30px;
+            margin: auto;
+        }
+    </style>
+  <meta charset="utf-8" />
+  <title>Testando e resolvendo conflito</title>
+</head>
+<body>
+  <h1>Testando e resolvendo conflito!</h1>
+    <div class="container">
+  <h2>~ início</h2>
+  <ul>
+    <li>Criei uma branch chamada <code>feat/resolvendo-conflitos</code></li>
+  </ul>
+  <img src="/my-git/imagens_my-git/criando-branch-resolvendo-conflito.png" alt="Print criando branch">
+
+  <ul>
+    <li>Criei um arquivo <strong>resolvendo-conflitos.md</strong> e fiz alterações nele.</li>
+    <li>Comandos usados:</li>
+  </ul>
+  <pre>
+  git add .
+  git commit -m "teste"
+  git push
+  </pre>
+
+  <p>Depois troquei para a branch main com <code>git checkout main</code>.</p>
+
+  <h3>~ conflito</h3>
+  <p>Fiz uma alteração remota no GitHub e outra local na mesma linha sem dar pull antes.</p>
+  <img src="/my-git/imagens_my-git/edicao-remota.png" alt="Edição remota" width="400">
+
+  <p>O <code>git status</code> mostrou divergências:</p>
+  <img src="/my-git/imagens_my-git/git-status-mensagem.png" alt="git status" width="400">
+
+  <p>Adicionei e comitei localmente, mas deu conflito:</p>
+  <img src="/my-git/imagens_my-git/conflito-01-git.png" alt="conflito git" width="400">
+
+  <h3>~ como resolvi</h3>
+  <p>Dei um <code>git pull</code> e escolhi manter a versão atual.</p>
+  <img src="/my-git/imagens_my-git/escolher-alteracoes.png" alt="escolher alterações" width="400">
+
+  <p>Depois usei:</p>
+  <pre>
+  git status
+  git add .
+  git commit -m "teste"
+  git push
+  </pre>
+
+  <p>Resultado:</p>
+  <img src="/my-git/imagens_my-git/saida-do-git-pull.png" alt="saida git pull" width="400">
+
+  </div>
+
+  <p>Conflito resolvido :)</p>
+</body>
+</html>
