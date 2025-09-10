@@ -1,66 +1,16 @@
-# Testando e resolvendo conflito!
-## ~ início
-- Primeiro, criei uma branch chamada feat/resolvendo-conflitos
+# Comandos git essenciais
 
-![print criando branch](imagens_my-git/criando-branch-resolvendo-conflito.png)
-
-
-
-- Após isso, criei um arquivo no repositório <u><strong>my-git</strong></u> chamado <u><strong>resolvendo-conflitos.md</strong></u>
-- nele fiz algumas alterações e fiz um commit seguindo o fluxo
-> git add .
-
-> git commit -m "teste"
-
-> git push
-
-- depois, troquei de branch com o comando <u><strong>git checkout main</strong></u> e comecei a testar
----
-### ~ conflito
-- para esse conflito, primeiro fiz uma alteração no meu repositório remoto no github e dei um commit por lá mesmo
-<br>
-
-![print criando branch](imagens_my-git/edicao-remota.png)
-
-
-- no meu repositório local, eu também fiz uma alteração na minha branch main, na mesma linha onde fiz a alteração remota. Para mudar de branch, segui o comando <u><strong>git checkout main</strong></u>
-- como eu ainda não tinha dado pull na alteração remota e já fui direto fazer a alteração local, o comando <u><strong>git status</strong></u> mostrou o seguinte:
-
-
-![print status mensagem](imagens_my-git/git-status-mensagem.png)
-
-
-- a seguir, joguei essa alteração para stage com um <u><strong>git add .</strong></u> e commitei ela com <u><strong>git commit -m "testando conflito na main</strong></u>
-
-- porém, quando fiz esse commit, gerou um conflito:
-
-![print imagem conflito](imagens_my-git/conflito-01-git.png)
-
----
-### ~ como resolvi:
-
-- segui o comando <u><strong>git pull</strong></u> para trazer as alterações do remoto para o meu local
-- logo quando dei esse git pull, apareceu a seguinte mensagem:
-
-![print escolhendo alteracoes](imagens_my-git/escolher-alteracoes.png)
-
-- após escolher a opção que gostaria (no meu caso escolhi a atual), segui com o comando:
-> git status
-
-> git add . && git commit -m "teste" && git push
-
-- o que gerou a saída:
-
-![print saida do git pull](imagens_my-git/saida-do-git-pull.png)
-
-- resolvendo assim o conflito :)
-
-
-
-
-
-
-
-
-
-
+   | Comando                               | Descrição                                                   |
+   | ------------------------------------- | ----------------------------------------------------------- |
+   | git init                            | Inicializa um repositório vazio                             |
+   | git clone <url>                     | Clona repositório remoto do git hub                         |
+   | git remote                          | Lista a url do servidor onde o projeto está salvo           |
+   | git status                          | Mostra estado da árvore de trabalho                         |
+   | git branch                          | Lista ou cria branches                                      |
+   | git checkout -b <nome-da-branch>    | Cria uma nova branch e já muda (faz checkout) pra ela       |
+   | git add <arq>                       | Adiciona mudanças ao stage                                  |
+   | git commit -m "msg"                 | Registra snapshot                                           |
+   | git push                            | Envia commits ao GitHub                                     |
+   | git pull                            | Sincroniza e integra mudanças                               |
+   | git merge                           | Mescla branches                                             |
+   | git log --oneline --graph           | Histórico compacto                                          |
